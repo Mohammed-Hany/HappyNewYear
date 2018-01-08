@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happynewyear.MainActivity">
+
+    <ImageView
+        android:src="@drawable/christmas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/Happy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy New Year!"
+        android:fontFamily="cursive"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:padding="25dp"
+        android:textColor="#F9A825"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="2018"
+        android:fontFamily="cursive"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:textColor="#F9A825"
+        android:layout_below="@id/Happy"
+        android:paddingLeft="50dp"
+        android:paddingStart="50dp"
+        android:paddingRight="40dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="25dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
